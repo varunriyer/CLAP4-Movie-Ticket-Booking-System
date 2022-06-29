@@ -1,57 +1,83 @@
-# CLAP4-Movie-Ticket-Booking-System
-# SDLC Activity Based Learning
+# Requirements
+## Introduction
+  The aim of the project is to provide information of the MOVIE TICKET BOOKING SYTEM to a customer to book  the tickets.The project has been developed to carry out process easily and quickly.The system enables the user to Book tickets,Cancel tickets,View all booking records
 
-![Banner](https://github.com/goutami8989/Stepin_Movie-Ticket-Booking-System/blob/main/1_Requirements/banner.png)
+## Research
+Cinemas help in contributing to our daily memories as they provide an essential part of our culture,going to cinemas has been the culture of almost all the families of today’s generation. It is a time when the family can spend some time altogether by stealing some hours from their busy schedule. Movie Ticket Booking System provides the customers facility to book tickets for a movie and to gather information about the movies and theaters.Customers can book ticket of his choice and may cancel a ticket
 
+The main goal of our project is to provide various types of customer facilities, and provide good  customer service
+   It should fulfill almost all the process requirements of booking a ticket
+
+## Features
+#### Booking tickets
+#### Cancel tickets
+#### Change ticket price(only admin)
+#### View all booking records
+## Benefits
+### Movie Ticket Booking system provides wide range of benefit they are as follows
+#### Provides flexibility
+#### For better performance
+#### User Friendly
+#### Can Select the seats as per choice
+
+### Defining Our System
+### Explanation
+Movie Ticket Booking System have few inbuilt features like
+      Admin
+    * Login 
+    * Can Change Price of a Ticket.
+    * Can View the Reserved Tickets.
+    * Exit System.
+      User
+    * Login with Credatials.
+    * View the Movies Avaliable.
+    * Purchase a Ticket.
+    * View the avaliable seats.
+    * Cancel a Ticket.
+    * Exit System.
+   
+## SWOT ANALYSIS
+![SWOT Analysis](https://github.com/goutami8989/Stepin_Movie-Ticket-Booking-System/blob/main/1_Requirements/swot-analysis.PNG)
+
+### 4W&#39;s and 1&#39;H
+
+## Who
+### * Theater
+
+## What
+*   To bulid a system to book ticket,cancel ticket,view reserverd seats,change price of ticket(only admin)
+
+## When
+*   When user wants to carry out the tasks quickly and this reduces manual work and saves time
+
+## Where
+*   This issue is in all parts of the world in theater where there is a lot of booking,cancellation of tickets happening in all the time
+
+## How
+*   By creating a system which will provide all the functionalities required,the booking of, cancelling of the tickes and other actions will be take more time and system needs more workers for these actions
+
+### Detail requirements
+
+## High Level Requirements 
+| ID | Description | Category | Status | 
+| ----- | ----- | ------- | ---------|
+| HR01 | User shall be able to login to the system| Techincal | IMPLEMENTED | 
+| HR02 | User shall be able to purchase a ticket | Techincal | IMPLEMENTED |
+| HR03 | User shall be able to get summary of the ticket booked | Techincal | IMPLEMENTED |
+| HR04 | User shall be able to cancel a ticket| Techincal | IMPLEMENTED |
+| HR05 | User shall be able to view the reserved seats  | Techincal | IMPLEMENTED |
+
+### Low level Requirements
+ 
+| ID | Description | HLR ID | Status (Implemented/Future) |
+| ------ | --------- | ------ | ----- |
+|LR01|User shall be able to login to the system with correct login details|HR01|IMPLEMENTED|
+|LR02|User need to book a ticket in a user entry mode|HR01|IMPLEMENTED|
+|LR03| If appropriate login details are not entered a message is displayed-"wrong password" | HR01 | IMPLEMENTED |
+|LR04 |Displaying the movies available  | HR02 | IMPLEMENTED |
+|LR05| Admin can change the price for the movie| HR02|IMPLEMENTED|
+|LR06 |If user specifies seat number which  is booked ,message appears that the seat is unavaliable  | HR05 | IMPLEMENTED |
+|LR07 |Displaying the summary of the ticket booked  | HR03 |IMPLEMENTED|
 <!--
-Visit [Pages for Report -optional](using github.io option)
-
-
-Build | Code Quality | Unity | [Git Inspector](using github.io option)
-------|----------|-------|--------------
- To be added | To be added | To be added | To be added
-
+Refernces Have refered google for some part of coding and information
 -->
-
-![Code_Quality_Grade](https://www.code-inspector.com/project/27638/status/svg)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/5ecd85a2c4234d69affd5a4d5d96af52)](https://www.codacy.com/gh/goutami8989/Stepin_Movie-Ticket-Booking-System/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=goutami8989/Stepin_Movie-Ticket-Booking-System&amp;utm_campaign=Badge_Grade)
-[![cppcheck-action](https://github.com/goutami8989/Stepin_Movie-Ticket-Booking-System/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/goutami8989/Stepin_Movie-Ticket-Booking-System/actions/workflows/cppcheck.yml)
-[![C/C++ CI](https://github.com/goutami8989/Stepin_Movie-Ticket-Booking-System/actions/workflows/c-build.yml/badge.svg)](https://github.com/goutami8989/Stepin_Movie-Ticket-Booking-System/actions/workflows/c-build.yml)
-[![Unit testing](https://github.com/goutami8989/Stepin_Movie-Ticket-Booking-System/actions/workflows/unit-test.yml/badge.svg)](https://github.com/goutami8989/Stepin_Movie-Ticket-Booking-System/actions/workflows/unit-test.yml)
-[![Contribution Check - Git Inspector](https://github.com/goutami8989/Stepin_Movie-Ticket-Booking-System/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/goutami8989/Stepin_Movie-Ticket-Booking-System/actions/workflows/gitinspector.yml)
-
-## Folder Structure
-Folder             | Description
--------------------| -----------------------------------------
-`1_Requirements`   | Documents detailing requirements and research
-`2_Architecture`   | Documents specifying design details
-`3_Implementation` | All code and documentation
-`4_Test_plan`      | Documents with test plans and procedures
-`5_Images`         | Screen-shots of the working code
-##  Features
-| Feature Id | Feature |
-| -----------|---------|
-|F_01| Login to System | |
-|F_02|Select Movie that is Avaliable |
-|F_03| Purchase a Ticket |
-|F_04| Summary of Ticket |
-|F_05| Cancel a Ticket |
-|F_06| Logout |
-
-<!--
-
-## Contributors List and Summary
-
-PS Number. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
--------|---------|----------------|----------------|---------------|-------------|--------------
-`99006110` | Goutami D Honagannavar  | Feature A, B etc    | X No     | X No   |X No   |X No     
-   -->
-<!--
-## Challenges Faced and How Was It Overcome
-
-1. ABC
-2. BCD
-3. ...
-4. ...
-
-
